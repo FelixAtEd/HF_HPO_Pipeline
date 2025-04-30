@@ -1,0 +1,83 @@
+datasets:
+  VTUAD:
+    _name: "VTUAD"
+    path: "/data_sets/16000_VTUAD"
+    splits:
+      train: "train.csv"       
+      validation: "validation.csv"  
+      test: "test.csv"
+
+  SHIPSEAR:
+    _name: "shipsear"
+    path: "/data_sets/16000_shipsear"
+    splits:
+      train: "pruned_train.csv"       
+      validation: "pruned_validation.csv"  
+      test: "pruned_test.csv"
+
+  ESC50:
+    _name: "ESC50"
+    path: "/data_sets/16000_ESC" 
+    folds:
+      fold_1: "fold_1.csv"
+      fold_2: "fold_2.csv"
+      fold_3: "fold_3.csv"
+      fold_4: "fold_4.csv"
+      fold_5: "fold_5.csv"
+
+  DEEPSHIP:
+    _name: "DEEPSHIP"
+    path: "/data_sets/16000_deepship" 
+    splits:
+      train: "grouped_train_segments.csv"       
+      validation: "grouped_validation_segments.csv"  
+      test: "grouped_test_segments.csv"
+
+
+  VTUAD5:
+    _name: "VTUAD5"
+    path: "/data_sets/16000_VTUAD"
+    splits:
+      train: "train_5.csv"       
+      validation: "validation.csv"  
+      test: "test.csv"
+
+  VTUAD10:
+    _name: "VTUAD10"
+    path: "/data_sets/16000_VTUAD"
+    splits:
+      train: "train_10.csv"       
+      validation: "validation.csv"  
+      test: "test.csv"
+
+  VTUAD20:
+    _name: "VTUAD20"
+    path: "/data_sets/16000_VTUAD"
+    splits:
+      train: "train_20.csv"       
+      validation: "validation.csv"  
+      test: "test.csv"
+    
+  VTUAD30:
+    _name: "VTUAD30"
+    path: "/data_sets/16000_VTUAD"
+    splits:
+      train: "train_30.csv"       
+      validation: "validation.csv"  
+      test: "test.csv"
+
+  VTUAD50:
+    _name: "VTUAD50"
+    path: "/data_sets/16000_VTUAD"
+    splits:
+      train: "train_50.csv"       
+      validation: "validation.csv"  
+      test: "test.csv"
+    
+  VTUAD80:
+    _name: "VTUAD80"
+    path: "/data_sets/16000_VTUAD"
+    splits:
+      train: "train_80.csv"       
+      validation: "validation.csv"  
+      test: "test.csv"
