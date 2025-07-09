@@ -13,14 +13,14 @@ While the pipeline is configured for audio datasets with HF models, it can be ex
 │   └── environment.yml      # Environment configuration
 ├── dataset_scripts/         # Ship-wise Enforced Spliting Strategy for ShipsEar and DeepShip
 ├── receipes/                # Folder containg training scripts for each methods
-└── test.py                  # Model Testing script
+└── test.py                  # Model testing script
 ```
 
 ## Usage
 
 ### Training with Any Method(Pretrained/Lora/TFS/LR)
 
-To train a model using LoRA adaptation technique:
+To train a model using pretrained models:
 
 ```bash
 accelerate launch --gpu_ids="1" --num_processes=1 --mixed_precision=fp16 recipes/pretrained.py --config configs/dataset_config.yaml
